@@ -279,9 +279,7 @@ def L():
             tree.heading("Time Taken", text="Time Taken")
 
             tree.configure()
-
-            #TODO: add "You completed the game in least time" if he actually did it
-
+            
             with open(r"Memory-Game\record.csv","r") as B:
                 csv_reader =csv.reader(B)
                 next(csv_reader)
